@@ -1,0 +1,497 @@
+147  array.jl; getindex; line: 111
+1    array.jl; getindex; line: 115
+1    array.jl; lexcmp; line: 819
+6    array.jl; resize!; line: 483
+1    inference.jl; abstract_call_gf; line: 623
+3    iobuffer.jl; ensureroom; line: 131
+2    iobuffer.jl; ensureroom; line: 132
+1    iobuffer.jl; ensureroom; line: 142
+7    iobuffer.jl; ensureroom; line: 145
+4    iobuffer.jl; ensureroom; line: 146
+5    iobuffer.jl; ensureroom; line: 147
+  1 array.jl; resize!; line: 481
+  1 array.jl; resize!; line: 490
+   1 array.jl; resize!; line: 481
+5    iobuffer.jl; ensureroom; line: 149
+8    iobuffer.jl; write; line: 197
+2    iobuffer.jl; write; line: 200
+45   iobuffer.jl; write; line: 201
+  4  iobuffer.jl; write; line: 197
+  5  iobuffer.jl; write; line: 198
+    1 iobuffer.jl; ensureroom; line: 149
+     2 iobuffer.jl; ensureroom; line: 131
+     1 iobuffer.jl; ensureroom; line: 149
+      1 iobuffer.jl; ensureroom; line: 149
+  1  iobuffer.jl; write; line: 199
+  2  iobuffer.jl; write; line: 200
+  22 iobuffer.jl; write; line: 201
+  1  iobuffer.jl; write; line: 202
+  1  iobuffer.jl; write; line: 203
+2    iobuffer.jl; write; line: 202
+1    iobuffer.jl; write; line: 203
+1    iobuffer.jl; write; line: 204
+2    iobuffer.jl; write_sub; line: 208
+11   iobuffer.jl; write_sub; line: 214
+ 2 iobuffer.jl; write; line: 197
+  1 iobuffer.jl; write; line: 197
+    2 iobuffer.jl; write; line: 197
+2638 profile.jl; anonymous; line: 9
+    2638 profile.jl; anonymous; line: 14
+                              596  C:\Users\JFrolich\Documents\Handy Python\Julia RF\text_proc.jl; read_files; line: 31
+                                               593 io.jl; readall; line: 206
+                                                                   21  io.jl; close; line: 260
+                              428  C:\Users\JFrolich\Documents\Handy Python\Julia RF\text_proc.jl; read_files; line: 32
+                                           204 C:\Users\JFrolich\Documents\Handy Python\Julia RF\text_proc.jl; ngramize!; line: 14
+                                                                     1   C:\Users\JFrolich\Documents\Handy Python\Julia RF\text_proc.jl; ngramize!; line: 19
+                                                                     52  C:\Users\JFrolich\Documents\Handy Python\Julia RF\text_proc.jl; ngramize!; line: 21
+                                                                     151 C:\Users\JFrolich\Documents\Handy Python\Julia RF\text_proc.jl; ngramize!; line: 24
+                                                                       1   array.jl; getindex; line: 115
+                                                                          1  dict.jl; get!; line: 542
+                                                                           1  array.jl; getindex; line: 111
+                                                                           1  dict.jl; get!; line: 535
+                                                                             11 array.jl; push!; line: 445
+                                                                             10 array.jl; push!; line: 446
+                                                                             1  dict.jl; get!; line: 535
+                                                                             5  dict.jl; get!; line: 536
+                                                                               1 string.jl; isequal; line: 521
+                                                                                       4 string.jl; isequal; line: 521
+                                                                                          1 array.jl; lexcmp; line: 819
+                                                                             3  dict.jl; get!; line: 540
+                                                                              1 dict.jl; ht_keyindex2; line: 467
+                                                                                    1 dict.jl; ht_keyindex2; line: 467
+                                                                             17 dict.jl; get!; line: 542
+                                                                                          1 io.jl; close; line: 260
+                                           1   regex.jl; matchall; line: 167
+                                           215 string.jl; lowercase; line: 790
+                                                      1   string.jl; map; line: 805
+                                                               38  string.jl; map; line: 804
+                                                                 1  utf8.jl; getindex; line: 65
+                                                                  4  utf8.jl; getindex; line: 54
+                                                                       1 utf8.jl; getindex; line: 54
+                                                                       1 utf8.jl; getindex; line: 55
+                                                                       3 utf8.jl; getindex; line: 56
+                                                                       3 utf8.jl; getindex; line: 67
+                                                                       6 utf8.jl; getindex; line: 68
+                                                                       2 utf8.jl; getindex; line: 72
+                                                                       4 utf8.jl; getindex; line: 74
+                                                                       3 utf8.jl; getindex; line: 77
+                                                               115 string.jl; map; line: 805
+                                                                       1  string.jl; lowercase; line: 787
+                                                                        4  string.jl; lowercase; line: 787
+                                                                            18 string.jl; lowercase; line: 787
+                                                               61  string.jl; map; line: 809
+                                                                2  utf8.jl; endof; line: 32
+                                                                1  utf8.jl; endof; line: 34
+                                                                 1  utf8.jl; endof; line: 32
+                                                                  1  io.jl; write; line: 70
+                                                                  1  io.jl; write; line: 86
+                                                                   1  io.jl; write; line: 86
+                                                                    5  iobuffer.jl; write; line: 220
+                                                                    15 iobuffer.jl; write; line: 221
+                                                                     1 iobuffer.jl; ensureroom; line: 131
+                                                                       4 iobuffer.jl; ensureroom; line: 131
+                                                                       1 iobuffer.jl; ensureroom; line: 149
+                                                                    3  iobuffer.jl; write; line: 222
+                                                                    3  iobuffer.jl; write; line: 224
+                                                                    3  iobuffer.jl; write; line: 226
+                                                                    1  iobuffer.jl; write; line: 229
+                                                                     4 utf8.jl; endof; line: 32
+                                                                     3 utf8.jl; endof; line: 33
+                                                                     5 utf8.jl; endof; line: 35
+                                                                     1 utf8.jl; endof; line: 36
+                                                                         5 io.jl; write; line: 68
+                                                                          1 iobuffer.jl; write; line: 220
+                                                                           1 iobuffer.jl; write; line: 224
+                                                                            1 iobuffer.jl; write; line: 220
+                                                                         2 io.jl; write; line: 70
+                                                                         1 io.jl; write; line: 83
+                               431 C:\Users\JFrolich\Documents\Handy Python\Julia RF\text_proc.jl; read_files; line: 31
+                                1   C:\Users\JFrolich\.julia\v0.3\DataArrays\src\dataarray.jl; getindex; line: 616
+                                    1   bitarray.jl; getindex; line: 382
+                                                426 io.jl; readall; line: 206
+                                                                    18  io.jl; close; line: 260
+                               418 C:\Users\JFrolich\Documents\Handy Python\Julia RF\text_proc.jl; read_files; line: 32
+                                  1   regex.jl; matchall; line: 167
+                                   1   regex.jl; matchall; line: 167
+                                            207 C:\Users\JFrolich\Documents\Handy Python\Julia RF\text_proc.jl; ngramize!; line: 14
+                                                                      1   C:\Users\JFrolich\Documents\Handy Python\Julia RF\text_proc.jl; ngramize!; line: 16
+                                                                      4   C:\Users\JFrolich\Documents\Handy Python\Julia RF\text_proc.jl; ngramize!; line: 19
+                                                                      60  C:\Users\JFrolich\Documents\Handy Python\Julia RF\text_proc.jl; ngramize!; line: 21
+                                                                         2 string.jl; string; line: 31
+                                                                      142 C:\Users\JFrolich\Documents\Handy Python\Julia RF\text_proc.jl; ngramize!; line: 24
+                                                                              16 array.jl; push!; line: 445
+                                                                              6  array.jl; push!; line: 446
+                                                                              2  dict.jl; get!; line: 535
+                                                                              7  dict.jl; get!; line: 536
+                                                                                1 string.jl; isequal; line: 521
+                                                                                        4 string.jl; isequal; line: 521
+                                                                                          1 array.jl; lexcmp; line: 819
+                                                                                            1 array.jl; lexcmp; line: 817
+                                                                                               1 array.jl; lexcmp; line: 819
+                                                                              7  dict.jl; get!; line: 540
+                                                                                2 dict.jl; ht_keyindex2; line: 467
+                                                                                 1 dict.jl; ht_keyindex2; line: 467
+                                                                                     2 dict.jl; ht_keyindex2; line: 487
+                                                                              18 dict.jl; get!; line: 542
+                                                                                1 array.jl; push!; line: 447
+                                                                                           1 io.jl; close; line: 260
+                                            197 string.jl; lowercase; line: 790
+                                                                30 string.jl; map; line: 804
+                                                                 3  utf8.jl; getindex; line: 54
+                                                                   2  utf8.jl; getindex; line: 54
+                                                                        2 utf8.jl; getindex; line: 54
+                                                                        2 utf8.jl; getindex; line: 55
+                                                                        4 utf8.jl; getindex; line: 67
+                                                                        1 utf8.jl; getindex; line: 72
+                                                                        3 utf8.jl; getindex; line: 74
+                                                                        4 utf8.jl; getindex; line: 77
+                                                                92 string.jl; map; line: 805
+                                                                        1  string.jl; lowercase; line: 787
+                                                                         1 string.jl; lowercase; line: 787
+                                                                             8 string.jl; lowercase; line: 787
+                                                                75 string.jl; map; line: 809
+                                                                 2  utf8.jl; endof; line: 32
+                                                                  1  io.jl; write; line: 70
+                                                                  1  io.jl; write; line: 86
+                                                                  2  utf8.jl; endof; line: 32
+                                                                   2  io.jl; write; line: 70
+                                                                   1  io.jl; write; line: 86
+                                                                    1  io.jl; write; line: 86
+                                                                     4  iobuffer.jl; write; line: 220
+                                                                     11 iobuffer.jl; write; line: 221
+                                                                      1 iobuffer.jl; ensureroom; line: 131
+                                                                       2 iobuffer.jl; ensureroom; line: 131
+                                                                       1 iobuffer.jl; ensureroom; line: 149
+                                                                        1 iobuffer.jl; ensureroom; line: 149
+                                                                         4 iobuffer.jl; ensureroom; line: 131
+                                                                     4  iobuffer.jl; write; line: 222
+                                                                     1  iobuffer.jl; write; line: 224
+                                                                     6  iobuffer.jl; write; line: 226
+                                                                     1  iobuffer.jl; write; line: 228
+                                                                     2  iobuffer.jl; write; line: 229
+                                                                     2  iobuffer.jl; write; line: 230
+                                                                      3  utf8.jl; endof; line: 32
+                                                                      3  utf8.jl; endof; line: 33
+                                                                      7  utf8.jl; endof; line: 35
+                                                                      1  utf8.jl; endof; line: 36
+                                                                          8 io.jl; write; line: 68
+                                                                           2 iobuffer.jl; write; line: 224
+                                                                            2 iobuffer.jl; write; line: 220
+                                                                             2 iobuffer.jl; write; line: 220
+                                                                          3 io.jl; write; line: 70
+                                                                          1 io.jl; write; line: 83
+                                                                          1 io.jl; write; line: 86
+                                     377 C:\Users\JFrolich\Documents\Handy Python\Julia RF\text_proc.jl; read_files; line: 31
+                                                      372 io.jl; readall; line: 206
+                                                                          19  io.jl; close; line: 260
+                                     384 C:\Users\JFrolich\Documents\Handy Python\Julia RF\text_proc.jl; read_files; line: 32
+                                                  173 C:\Users\JFrolich\Documents\Handy Python\Julia RF\text_proc.jl; ngramize!; line: 14
+                                                                            3   C:\Users\JFrolich\Documents\Handy Python\Julia RF\text_proc.jl; ngramize!; line: 19
+                                                                            53  C:\Users\JFrolich\Documents\Handy Python\Julia RF\text_proc.jl; ngramize!; line: 21
+                                                                                1 string.jl; string; line: 31
+                                                                            117 C:\Users\JFrolich\Documents\Handy Python\Julia RF\text_proc.jl; ngramize!; line: 24
+                                                                             2   array.jl; getindex; line: 111
+                                                                              1  array.jl; getindex; line: 111
+                                                                                    10 array.jl; push!; line: 445
+                                                                                    8  array.jl; push!; line: 446
+                                                                                    1  dict.jl; get!; line: 535
+                                                                                    3  dict.jl; get!; line: 536
+                                                                                      1 string.jl; isequal; line: 521
+                                                                                              1 string.jl; isequal; line: 521
+                                                                                    4  dict.jl; get!; line: 540
+                                                                                        1 dict.jl; ht_keyindex2; line: 467
+                                                                                        1 dict.jl; ht_keyindex2; line: 487
+                                                                                          1 dict.jl; ht_keyindex2; line: 467
+                                                                                           1 dict.jl; ht_keyindex2; line: 467
+                                                                                    9  dict.jl; get!; line: 542
+                                                                                      1 array.jl; push!; line: 445
+                                                                                                 1 io.jl; close; line: 260
+                                                  210 string.jl; lowercase; line: 790
+                                                             1   string.jl; map; line: 805
+                                                             1   string.jl; map; line: 809
+                                                                  1 iobuffer.jl; write; line: 220
+                                                                      32 string.jl; map; line: 804
+                                                                       2  utf8.jl; getindex; line: 54
+                                                                              3 utf8.jl; getindex; line: 55
+                                                                              2 utf8.jl; getindex; line: 67
+                                                                              1 utf8.jl; getindex; line: 68
+                                                                              3 utf8.jl; getindex; line: 72
+                                                                              5 utf8.jl; getindex; line: 74
+                                                                              2 utf8.jl; getindex; line: 77
+                                                                      98 string.jl; map; line: 805
+                                                                               3 string.jl; lowercase; line: 787
+                                                                                   6 string.jl; lowercase; line: 787
+                                                                      2  string.jl; map; line: 806
+                                                                      75 string.jl; map; line: 809
+                                                                       2  utf8.jl; endof; line: 32
+                                                                        5  io.jl; write; line: 70
+                                                                        1  utf8.jl; endof; line: 32
+                                                                         1  io.jl; write; line: 70
+                                                                          2  io.jl; write; line: 70
+                                                                           5  iobuffer.jl; write; line: 220
+                                                                           9  iobuffer.jl; write; line: 221
+                                                                             1 iobuffer.jl; ensureroom; line: 131
+                                                                              1 iobuffer.jl; ensureroom; line: 131
+                                                                               2 iobuffer.jl; ensureroom; line: 131
+                                                                               2 iobuffer.jl; ensureroom; line: 149
+                                                                           3  iobuffer.jl; write; line: 222
+                                                                           1  iobuffer.jl; write; line: 224
+                                                                           10 iobuffer.jl; write; line: 226
+                                                                           3  iobuffer.jl; write; line: 229
+                                                                           2  iobuffer.jl; write; line: 230
+                                                                            4  utf8.jl; endof; line: 32
+                                                                            8  utf8.jl; endof; line: 35
+                                                                                11 io.jl; write; line: 68
+                                                                                 2 iobuffer.jl; write; line: 224
+                                                                                  2 iobuffer.jl; write; line: 220
+                                                                                  1 iobuffer.jl; write; line: 224
+                                                                                   1 iobuffer.jl; write; line: 220
+                                                                                   2 iobuffer.jl; write; line: 224
+                                                                                    2 iobuffer.jl; write; line: 220
+                                                                                3  io.jl; write; line: 83
+                                                                                1  io.jl; write; line: 86
+                                                                      1  string.jl; map; line: 811
+                                                                                1 io.jl; write; line: 68
+                                                                                        1 iobuffer.jl; takebuf_array; line: 173
+1    reflection.jl; _methods; line: 95
+          1 inference.jl; typeinf; line: 1268
+1    regex.jl; matchall; line: 131
+2    regex.jl; matchall; line: 133
+2    regex.jl; matchall; line: 134
+92   regex.jl; matchall; line: 138
+1    regex.jl; matchall; line: 146
+24   regex.jl; matchall; line: 154
+ 1  array.jl; push!; line: 440
+   2  array.jl; push!; line: 440
+   2  string.jl; SubString; line: 600
+   1  string.jl; SubString; line: 601
+    1 string.jl; SubString; line: 600
+    1 string.jl; SubString; line: 601
+     1 string.jl; SubString; line: 600
+            7 array.jl; push!; line: 445
+              6 string.jl; SubString; line: 600
+              1 string.jl; SubString; line: 611
+5    string.jl; next; line: 628
+21   string.jl; next; line: 631
+ 2  utf8.jl; getindex; line: 54
+  4 iobuffer.jl; write_sub; line: 208
+  7 iobuffer.jl; write_sub; line: 214
+    1 iobuffer.jl; write; line: 197
+      1 iobuffer.jl; write; line: 197
+      1 iobuffer.jl; write; line: 204
+         1 iobuffer.jl; write; line: 204
+  1 utf8.jl; getindex; line: 54
+   3 utf8.jl; getindex; line: 54
+2    string.jl; next; line: 632
+1    utf8.jl; endof; line: 32
+2    utf8.jl; endof; line: 33
+3    utf8.jl; endof; line: 35
+1    utf8.jl; endof; line: 36
+13   utf8.jl; isvalid; line: 95
+ 2    array.jl; getindex; line: 111
+ 34   array.jl; lexcmp; line: 817
+ 2    array.jl; lexcmp; line: 819
+ 187  array.jl; resize!; line: 483
+                      5  io.jl; close; line: 260
+ 1    array.jl; resize!; line: 488
+ 43   dict.jl; hashindex; line: 360
+  2  array.jl; sizeof; line: 23
+ 9    dict.jl; ht_keyindex2; line: 467
+ 1    dict.jl; ht_keyindex2; line: 469
+ 6    dict.jl; ht_keyindex2; line: 470
+  2 dict.jl; hashindex; line: 360
+   1 dict.jl; hashindex; line: 360
+     2 dict.jl; hashindex; line: 360
+ 1    dict.jl; ht_keyindex2; line: 472
+ 49   dict.jl; ht_keyindex2; line: 475
+ 124  dict.jl; ht_keyindex2; line: 486
+              2 iobuffer.jl; takebuf_array; line: 181
+                   2 array.jl; lexcmp; line: 817
+ 1    dict.jl; ht_keyindex2; line: 487
+ 1    dict.jl; ht_keyindex2; line: 499
+ 1    inference.jl; inlining_pass; line: 2391
+ 15   iobuffer.jl; ensureroom; line: 131
+ 14   iobuffer.jl; ensureroom; line: 145
+ 2    iobuffer.jl; ensureroom; line: 146
+ 6    iobuffer.jl; ensureroom; line: 147
+ 2    iobuffer.jl; ensureroom; line: 149
+ 138  iobuffer.jl; takebuf_array; line: 177
+                       2  io.jl; close; line: 260
+ 9    iobuffer.jl; takebuf_array; line: 181
+  1 array.jl; resize!; line: 481
+  1 array.jl; resize!; line: 490
+    1 array.jl; resize!; line: 481
+         1 array.jl; resize!; line: 481
+         3 array.jl; resize!; line: 488
+         1 array.jl; resize!; line: 490
+ 1    iobuffer.jl; takebuf_array; line: 188
+ 1    iobuffer.jl; write; line: 197
+ 1    iobuffer.jl; write; line: 198
+ 1    iobuffer.jl; write; line: 200
+ 10   iobuffer.jl; write; line: 201
+   2 iobuffer.jl; write; line: 197
+   1 iobuffer.jl; write; line: 198
+      1 iobuffer.jl; ensureroom; line: 149
+   3 iobuffer.jl; write; line: 201
+ 1    iobuffer.jl; write; line: 204
+ 2    iobuffer.jl; write_sub; line: 214
+   1 iobuffer.jl; write; line: 197
+ 420  string.jl; print_to_string; line: 21
+                     9  io.jl; close; line: 260
+                       5  io.jl; close; line: 260
+ 4    string.jl; print_to_string; line: 22
+  1 iobuffer.jl; truncate; line: 110
+    1 iobuffer.jl; truncate; line: 119
+ 267  string.jl; print_to_string; line: 24
+         2  ascii.jl; print; line: 93
+          5  ascii.jl; print; line: 93
+          1  string.jl; print; line: 623
+                  10 ascii.jl; print; line: 93
+                    10 string.jl; print; line: 623
+                     1 iobuffer.jl; write_sub; line: 208
+ 18   string.jl; print_to_string; line: 26
+  1  iobuffer.jl; takebuf_array; line: 173
+  1  string.jl; bytestring; line: 34
+   1 iobuffer.jl; takebuf_array; line: 173
+   3 string.jl; bytestring; line: 34
+    2 iobuffer.jl; takebuf_array; line: 173
+      1 iobuffer.jl; takebuf_array; line: 191
+               3 iobuffer.jl; truncate; line: 116
+                   3 iobuffer.jl; takebuf_array; line: 173
+  1    inference.jl; occurs_outside_tupleref; line: 2625
+            1 inference.jl; is_known_call; line: 2515
+  1    io.jl; IOStream; line: 248
+  4    io.jl; open; line: 344
+  1    iobuffer.jl; ensureroom; line: 145
+  2    iobuffer.jl; ensureroom; line: 147
+    1 array.jl; resize!; line: 490
+  88   iobuffer.jl; takebuf_array; line: 181
+      88 string.jl; isequal; line: 521
+  1    iobuffer.jl; write; line: 197
+  740  string.jl; bytestring; line: 34
+                       9   io.jl; close; line: 260
+                        15  io.jl; close; line: 260
+   2    ascii.jl; string; line: 29
+   25   ascii.jl; string; line: 31
+   1    ascii.jl; string; line: 34
+   1    ascii.jl; string; line: 36
+   1    base.jl; Array; line: 179
+   1    inference.jl; abstract_eval_call; line: 857
+   1    inference.jl; tuple_elim_pass; line: 2715
+                     1 inference.jl; replace_tupleref!; line: 2744
+                           1 inference.jl; replace_tupleref!; line: 2744
+                                 1 inference.jl; replace_tupleref!; line: 2744
+   5    io.jl; IOStream; line: 248
+     1 array.jl; zeros; line: 158
+                     1 array.jl; zeros; line: 158
+   13   io.jl; IOStream; line: 251
+                 9 reflection.jl; anonymous; line: 33
+   1    iobuffer.jl; takebuf_array; line: 181
+       1 string.jl; isequal; line: 521
+   4    utf8.jl; getindex; line: 54
+   7    utf8.jl; getindex; line: 55
+   3    utf8.jl; getindex; line: 61
+   14   utf8.jl; getindex; line: 67
+   2    utf8.jl; getindex; line: 68
+   1    utf8.jl; getindex; line: 72
+   4    utf8.jl; getindex; line: 77
+    1   array.jl; lexcmp; line: 817
+    377 array.jl; push!; line: 445
+      2   string.jl; SubString; line: 600
+      1   string.jl; SubString; line: 601
+      2   string.jl; SubString; line: 603
+       1 utf8.jl; isvalid; line: 95
+      4   string.jl; SubString; line: 607
+       1 utf8.jl; isvalid; line: 95
+      368 string.jl; SubString; line: 612
+                          23 io.jl; close; line: 260
+    21  ascii.jl; print; line: 93
+     2  iobuffer.jl; write_sub; line: 214
+      11 string.jl; print; line: 623
+         2 string.jl; next; line: 628
+          1 string.jl; next; line: 632
+       1 iobuffer.jl; write_sub; line: 208
+    858 io.jl; open; line: 344
+    6   iobuffer.jl; truncate; line: 116
+        1 iobuffer.jl; takebuf_array; line: 173
+        1 iobuffer.jl; takebuf_array; line: 174
+        4 iobuffer.jl; takebuf_array; line: 177
+    1   iobuffer.jl; write; line: 202
+     1   inference.jl; contains_is; line: 49
+         1 inference.jl; is_static_parameter; line: 39
+                         1 range.jl; StepRange; line: 17
+     4   string.jl; hash; line: 1684
+      1 array.jl; sizeof; line: 23
+     1   string.jl; isequal; line: 521
+     1   string.jl; map; line: 804
+             1 utf8.jl; getindex; line: 54
+     1   string.jl; map; line: 809
+           1 utf8.jl; endof; line: 32
+      1   regex.jl; compile; line: 45
+      1   string.jl; SubString; line: 603
+      1   string.jl; SubString; line: 612
+      112 string.jl; string; line: 31
+         1  string.jl; print_to_string; line: 26
+          11 string.jl; print_to_string; line: 21
+      1   task.jl; wait; line: 268
+            1 stream.jl; process_events; line: 513
+       1   array.jl; zeros; line: 158
+       62  io.jl; readall; line: 205
+        1  array.jl; resize!; line: 481
+             1  io.jl; readbytes!; line: 473
+                         1  io.jl; readbytes!; line: 475
+                         44 io.jl; readbytes!; line: 480
+       4   iobuffer.jl; truncate; line: 110
+       1   iobuffer.jl; truncate; line: 113
+       1   stream.jl; write; line: 686
+       3   string.jl; isequal; line: 521
+       1   string.jl; lowercase; line: 790
+       46  string.jl; map; line: 802
+         1  utf8.jl; endof; line: 32
+                           4  io.jl; close; line: 260
+       1   string.jl; map; line: 811
+                1 array.jl; getindex; line: 111
+        8   C:\Users\JFrolich\Documents\Handy Python\Julia RF\text_proc.jl; ngramize!; line: 21
+        10  C:\Users\JFrolich\Documents\Handy Python\Julia RF\text_proc.jl; ngramize!; line: 24
+                3 dict.jl; get!; line: 536
+                 1 string.jl; isequal; line: 521
+                  1 string.jl; isequal; line: 521
+                          1 string.jl; isequal; line: 521
+                           1 array.jl; lexcmp; line: 819
+                1 dict.jl; get!; line: 542
+        7   array.jl; zeros; line: 158
+                 1 base.jl; Array; line: 179
+        1   inference.jl; anonymous; line: 2139
+         1 inference.jl; effect_free; line: 1864
+                           1 inference.jl; is_known_call_p; line: 2523
+        228 io.jl; readbytes!; line: 475
+        1   string.jl; map; line: 804
+        5   string.jl; map; line: 805
+                     1 string.jl; lowercase; line: 787
+         21 iobuffer.jl; takebuf_array; line: 181
+             3  string.jl; isequal; line: 521
+              1 array.jl; lexcmp; line: 819
+              17 array.jl; lexcmp; line: 817
+              1  array.jl; lexcmp; line: 819
+         10 iobuffer.jl; truncate; line: 116
+          1 array.jl; setindex!; line: 313
+          1 array.jl; setindex!; line: 316
+           2 array.jl; setindex!; line: 313
+           1 array.jl; setindex!; line: 316
+               1 array.jl; setindex!; line: 313
+         2  iobuffer.jl; truncate; line: 117
+         1  iobuffer.jl; truncate; line: 118
+         2  iobuffer.jl; truncate; line: 119
+          29 array.jl; push!; line: 445
+          5  array.jl; push!; line: 446
+          2  io.jl; open; line: 343
+           1 ascii.jl; string; line: 24
+            1 ascii.jl; string; line: 24
+           1  iobuffer.jl; write; line: 197
+            1  io.jl; open; line: 344
+                         1 dict.jl; rehash; line: 390
+                         3 dict.jl; rehash; line: 391
+                         1 dict.jl; rehash; line: 392
+                         2 dict.jl; rehash; line: 395
+                         2 dict.jl; rehash; line: 396
+                         4 dict.jl; rehash; line: 397

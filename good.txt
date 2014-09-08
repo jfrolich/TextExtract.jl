@@ -1,0 +1,632 @@
+5    ...lia RF\text_proc_2.jl; tokenize; line: 22
+  1 string.jl; bytestring; line: 653
+    1 ...lia RF\text_proc_2.jl; ngramize; line: 123
+7    array.jl; lexcmp; line: 817
+14   array.jl; push!; line: 445
+2    array.jl; push!; line: 446
+1    inference.jl; builtin_tfunction; line: 511
+2    inference.jl; typeinf; line: 1212
+1    iobuffer.jl; ensureroom; line: 147
+68   profile.jl; anonymous; line: 9
+    68 profile.jl; anonymous; line: 14
+                   2  ...\text_proc_2.jl; dtm; line: 145
+1    reflection.jl; _methods; line: 80
+1    regex.jl; matchall; line: 131
+1    regex.jl; matchall; line: 133
+1    regex.jl; matchall; line: 134
+1    regex.jl; matchall; line: 136
+7    regex.jl; matchall; line: 138
+1    regex.jl; matchall; line: 146
+1    regex.jl; matchall; line: 154
+ 1 array.jl; push!; line: 447
+28   regex.jl; matchall; line: 167
+        1  regex.jl; matchall; line: 164
+                              21 regex.jl; matchall; line: 138
+                              1  regex.jl; matchall; line: 146
+                              4  regex.jl; matchall; line: 154
+                                 1 array.jl; push!; line: 440
+                                     1 string.jl; SubString; line: 601
+                                     +2 1 array.jl; push!; line: 445
+                                     +4 1 string.jl; SubString; line: 600
+                              1  regex.jl; matchall; line: 155
+2    string.jl; isequal; line: 521
+4    string.jl; map; line: 804
+        1 utf8.jl; getindex; line: 56
+        1 utf8.jl; getindex; line: 72
+10   string.jl; map; line: 805
+        1 string.jl; lowercase; line: 787
+             1 string.jl; lowercase; line: 787
+10   string.jl; map; line: 809
+     1 iobuffer.jl; write; line: 220
+     2 iobuffer.jl; write; line: 221
+             1 string.jl; lowercase; line: 787
+               1 array.jl; append!; line: 462
+                 1 iobuffer.jl; ensureroom; line: 131
+     2 iobuffer.jl; write; line: 226
+     1 iobuffer.jl; write; line: 228
+      1 utf8.jl; endof; line: 33
+      1 utf8.jl; endof; line: 35
+          1 io.jl; write; line: 68
+           1 iobuffer.jl; write; line: 220
+          1 io.jl; write; line: 70
+1    utf8.jl; endof; line: 32
+1    utf8.jl; endof; line: 35
+4    utf8.jl; isvalid; line: 95
+ 2    ...lia RF\text_proc_2.jl; tokenize; line: 22
+                     1 string.jl; map; line: 805
+                     1 string.jl; map; line: 809
+ 1    array.jl; getindex; line: 111
+ 2    array.jl; push!; line: 445
+     2 array.jl; push!; line: 440
+ 1    inference.jl; without_linenums; line: 1819
+ 1    iobuffer.jl; ensureroom; line: 131
+ 3    iobuffer.jl; ensureroom; line: 145
+ 1    iobuffer.jl; ensureroom; line: 146
+ 2    iobuffer.jl; ensureroom; line: 149
+ 2    reflection.jl; _methods; line: 80
+ 1    reflection.jl; _methods; line: 97
+                 1 reflection.jl; _methods; line: 80
+ 1    string.jl; isequal; line: 521
+ 1    utf8.jl; string; line: 135
+ 61   utf8.jl; string; line: 138
+ 4    utf8.jl; string; line: 139
+ 77   utf8.jl; string; line: 140
+    2  array.jl; append!; line: 457
+     1 array.jl; append!; line: 457
+     8 array.jl; append!; line: 462
+       1 array.jl; copy!; line: 55
+             2 array.jl; copy!; line: 52
+             5 array.jl; copy!; line: 55
+              2 array.jl; unsafe_copy!; line: 42
+      1 array.jl; append!; line: 463
+ 11   utf8.jl; string; line: 142
+  6    array.jl; append!; line: 457
+  1    array.jl; append!; line: 460
+  120  array.jl; append!; line: 461
+  12   array.jl; append!; line: 462
+   1 array.jl; copy!; line: 52
+   2 array.jl; copy!; line: 55
+    2 array.jl; copy!; line: 52
+  2    array.jl; lexcmp; line: 817
+      2 dict.jl; hashindex; line: 360
+  39   array.jl; push!; line: 445
+      39 array.jl; push!; line: 440
+  1    dict.jl; _setindex!; line: 503
+  4    dict.jl; _setindex!; line: 505
+  1    inference.jl; typeinf; line: 1465
+                               1 inference.jl; stupdate; line: 1146
+  9    string.jl; bytestring; line: 34
+  1    string.jl; isequal; line: 521
+  1    string.jl; lowercase; line: 787
+      1 iobuffer.jl; ensureroom; line: 145
+   15   ...ia RF\text_proc_2.jl; tokenize; line: 22
+     15 string.jl; bytestring; line: 653
+       3  ...a RF\text_proc_2.jl; ngramize; line: 123
+       12 ...a RF\text_proc_2.jl; ngramize; line: 124
+               11 string.jl; bytestring; line: 653
+                   10 array.jl; push!; line: 445
+                   1  array.jl; push!; line: 446
+   47   array.jl; append!; line: 462
+           47 array.jl; copy!; line: 55
+              1  array.jl; unsafe_copy!; line: 42
+               2  array.jl; unsafe_copy!; line: 42
+                3  array.jl; unsafe_copy!; line: 48
+                 1  array.jl; unsafe_copy!; line: 48
+                  37 array.jl; unsafe_copy!; line: 42
+                  3  array.jl; unsafe_copy!; line: 48
+   25   array.jl; lexcmp; line: 817
+       2 dict.jl; hashindex; line: 360
+           2 string.jl; isequal; line: 521
+   6    array.jl; lexcmp; line: 819
+   530  dict.jl; hashindex; line: 360
+      137 utf8.jl; endof; line: 32
+      165 utf8.jl; endof; line: 33
+      173 utf8.jl; endof; line: 35
+      1   utf8.jl; endof; line: 36
+       54 string.jl; isequal; line: 521
+         1  utf8.jl; endof; line: 32
+             17 utf8.jl; endof; line: 32
+             15 utf8.jl; endof; line: 33
+             16 utf8.jl; endof; line: 35
+   2    dict.jl; ht_keyindex2; line: 467
+   6    dict.jl; ht_keyindex2; line: 470
+     1 dict.jl; int64hash; line: 219
+     1 dict.jl; int64hash; line: 220
+     2 dict.jl; int64hash; line: 224
+   29   dict.jl; ht_keyindex2; line: 475
+   9    dict.jl; ht_keyindex2; line: 486
+   1    dict.jl; skip_deleted; line: 639
+   3    dict.jl; skip_deleted; line: 640
+   1    dict.jl; skip_deleted; line: 641
+   2    dict.jl; skip_deleted; line: 643
+   1    string.jl; bytestring; line: 653
+       1 array.jl; push!; line: 440
+   1    string.jl; lowercase; line: 787
+     1 array.jl; append!; line: 462
+       1 iobuffer.jl; ensureroom; line: 146
+   2    string.jl; map; line: 802
+       1 dict.jl; hashindex; line: 360
+         1 utf8.jl; endof; line: 35
+   24   string.jl; map; line: 804
+    1  utf8.jl; getindex; line: 54
+     1  utf8.jl; getindex; line: 65
+      3  utf8.jl; getindex; line: 54
+           1 utf8.jl; getindex; line: 54
+           1 utf8.jl; getindex; line: 56
+           1 utf8.jl; getindex; line: 67
+           2 utf8.jl; getindex; line: 68
+           3 utf8.jl; getindex; line: 72
+           3 utf8.jl; getindex; line: 74
+           3 utf8.jl; getindex; line: 77
+   77   string.jl; map; line: 805
+           4  string.jl; lowercase; line: 787
+                8 string.jl; lowercase; line: 787
+   51   string.jl; map; line: 809
+    1  utf8.jl; endof; line: 32
+     3  io.jl; write; line: 70
+      1  io.jl; write; line: 70
+        2  iobuffer.jl; write; line: 220
+        9  iobuffer.jl; write; line: 221
+         1 iobuffer.jl; ensureroom; line: 149
+          2 iobuffer.jl; ensureroom; line: 131
+           1 iobuffer.jl; ensureroom; line: 131
+            3 iobuffer.jl; ensureroom; line: 131
+            1 iobuffer.jl; ensureroom; line: 149
+        1  iobuffer.jl; write; line: 222
+        3  iobuffer.jl; write; line: 224
+        2  iobuffer.jl; write; line: 226
+        1  iobuffer.jl; write; line: 229
+        3  iobuffer.jl; write; line: 230
+         2 utf8.jl; endof; line: 32
+         6 utf8.jl; endof; line: 35
+             6 io.jl; write; line: 68
+              1 iobuffer.jl; write; line: 220
+               1 iobuffer.jl; write; line: 220
+               1 iobuffer.jl; write; line: 224
+                1 iobuffer.jl; write; line: 220
+             1 io.jl; write; line: 70
+             1 io.jl; write; line: 77
+             1 io.jl; write; line: 86
+    131  array.jl; push!; line: 445
+      2  dict.jl; get!; line: 535
+      42 dict.jl; get!; line: 536
+       2  string.jl; isequal; line: 521
+        5  string.jl; isequal; line: 521
+         5  string.jl; isequal; line: 521
+            4  string.jl; isequal; line: 521
+             2  string.jl; isequal; line: 521
+                      22 string.jl; isequal; line: 521
+                       1  array.jl; lexcmp; line: 817
+                        1 array.jl; lexcmp; line: 817
+                           1 array.jl; lexcmp; line: 817
+                           2 array.jl; lexcmp; line: 819
+                            1 array.jl; lexcmp; line: 817
+                             1 array.jl; lexcmp; line: 817
+                                  2 array.jl; lexcmp; line: 817
+                                  2 array.jl; lexcmp; line: 819
+      16 dict.jl; get!; line: 540
+       1  dict.jl; ht_keyindex2; line: 467
+        1  dict.jl; ht_keyindex2; line: 467
+         1  dict.jl; ht_keyindex2; line: 467
+          1 dict.jl; ht_keyindex2; line: 467
+            1 dict.jl; ht_keyindex2; line: 487
+              1 dict.jl; ht_keyindex2; line: 467
+              1 dict.jl; ht_keyindex2; line: 487
+                      6 string.jl; isequal; line: 521
+                          1 dict.jl; ht_keyindex2; line: 467
+                          2 dict.jl; ht_keyindex2; line: 486
+                              1 string.jl; isequal; line: 521
+                          3 dict.jl; ht_keyindex2; line: 487
+      59 dict.jl; get!; line: 542
+      1  dict.jl; get!; line: 545
+      1  string.jl; SubString; line: 600
+       1 utf8.jl; endof; line: 34
+      1  string.jl; SubString; line: 607
+       1 utf8.jl; isvalid; line: 95
+      1  string.jl; SubString; line: 608
+      8  string.jl; SubString; line: 612
+    1    dict.jl; hashindex; line: 360
+        1 string.jl; isequal; line: 521
+    1    inference.jl; typeinf; line: 1212
+    1    regex.jl; matchall; line: 138
+    1    regex.jl; matchall; line: 154
+      1 array.jl; push!; line: 440
+    57   string.jl; isequal; line: 521
+        2  dict.jl; ht_keyindex2; line: 469
+        55 dict.jl; ht_keyindex2; line: 470
+         1  dict.jl; hashindex; line: 360
+          1  dict.jl; hashindex; line: 360
+             1  dict.jl; hashindex; line: 360
+                50 array.jl; lexcmp; line: 817
+                    50 dict.jl; hashindex; line: 360
+                     1  array.jl; sizeof; line: 23
+                      6  array.jl; sizeof; line: 23
+      28   ...a RF\text_proc_2.jl; tokenize; line: 22
+                          1  regex.jl; matchall; line: 133
+                          4  string.jl; map; line: 804
+                                  2 utf8.jl; getindex; line: 56
+                                  1 utf8.jl; getindex; line: 67
+                                  1 utf8.jl; getindex; line: 77
+                          9  string.jl; map; line: 805
+                                       2 string.jl; lowercase; line: 787
+                          14 string.jl; map; line: 809
+                           1  utf8.jl; endof; line: 34
+                              1  io.jl; write; line: 86
+                               1 iobuffer.jl; write; line: 220
+                               2 iobuffer.jl; write; line: 221
+                                  1 iobuffer.jl; ensureroom; line: 131
+                               2 iobuffer.jl; write; line: 226
+                               1 iobuffer.jl; write; line: 229
+                                2 utf8.jl; endof; line: 35
+                                    2 io.jl; write; line: 68
+                                       1 ...ffer.jl; write; line: 220
+                                        1 ...ffer.jl; write; line: 224
+                                    1 io.jl; write; line: 70
+      1    array.jl; cumsum_pairwise; line: 1354
+          1 array.jl; cumsum_pairwise; line: 1350
+      1    dict.jl; _setindex!; line: 503
+      156  string.jl; isequal; line: 521
+          2   dict.jl; ht_keyindex2; line: 469
+          3   dict.jl; ht_keyindex2; line: 472
+          114 dict.jl; ht_keyindex2; line: 475
+          1   dict.jl; ht_keyindex2; line: 476
+          34  dict.jl; ht_keyindex2; line: 486
+          1   dict.jl; ht_keyindex2; line: 490
+          1   dict.jl; ht_keyindex2; line: 492
+       1    ...a RF\text_proc_2.jl; tokenize; line: 22
+       1    array.jl; push!; line: 445
+       21   dict.jl; hashindex; line: 360
+           21 string.jl; isequal; line: 521
+            1  array.jl; lexcmp; line: 819
+               1  array.jl; lexcmp; line: 819
+                  3  array.jl; lexcmp; line: 817
+                       15 array.jl; lexcmp; line: 817
+                       1  array.jl; lexcmp; line: 819
+       2    dict.jl; ht_keyindex; line: 444
+         1 dict.jl; int64hash; line: 225
+       4    dict.jl; setindex!; line: 523
+         1 dict.jl; ht_keyindex2; line: 467
+           1 dict.jl; ht_keyindex2; line: 476
+             1 dict.jl; ht_keyindex2; line: 467
+              1 dict.jl; ht_keyindex2; line: 476
+       1    dict.jl; setindex!; line: 526
+       7    dict.jl; setindex!; line: 528
+        1 dict.jl; _setindex!; line: 503
+                   3 dict.jl; _setindex!; line: 503
+                   1 dict.jl; _setindex!; line: 508
+                   1 dict.jl; _setindex!; line: 510
+       1    sparse/csparse.jl; sparse; line: 30
+       4    sparse/csparse.jl; sparse; line: 31
+       1    sparse/csparse.jl; sparse; line: 45
+       1    sparse/csparse.jl; sparse; line: 46
+       1    sparse/csparse.jl; sparse; line: 49
+       6    sparse/csparse.jl; sparse; line: 50
+       3    sparse/csparse.jl; sparse; line: 51
+       1    sparse/csparse.jl; sparse; line: 56
+       28   string.jl; isequal; line: 521
+        1  utf8.jl; endof; line: 32
+         1  utf8.jl; endof; line: 32
+           3  dict.jl; ht_keyindex2; line: 470
+             2 utf8.jl; endof; line: 32
+             1 utf8.jl; endof; line: 35
+           22 dict.jl; ht_keyindex2; line: 486
+             8  utf8.jl; endof; line: 33
+             14 utf8.jl; endof; line: 35
+       1    string.jl; map; line: 802
+           1 dict.jl; hashindex; line: 360
+             1 utf8.jl; endof; line: 35
+       1    utf8.jl; utf8; line: 161
+        39   ... RF\text_proc_2.jl; vocabulary_to_feature_names; line: 163
+         1  dict.jl; skip_deleted; line: 639
+        5    ... RF\text_proc_2.jl; vocabulary_to_feature_names; line: 164
+          1 dict.jl; setindex!; line: 517
+          1 dict.jl; setindex!; line: 531
+            1 dict.jl; setindex!; line: 517
+        2    ... RF\text_proc_2.jl; vocabulary_to_feature_names; line: 166
+        2    dict.jl; _setindex!; line: 504
+        1    string.jl; isequal; line: 521
+        1    string.jl; map; line: 805
+         8    dict.jl; _setindex!; line: 505
+         1    dict.jl; _setindex!; line: 508
+         2    dict.jl; setindex!; line: 517
+          1    abstractarray.jl; compute_dims; line: 629
+           1 abstractarray.jl; compute_dims; line: 629
+            1 abstractarray.jl; compute_dims; line: 622
+                            1 ...e/csparse.jl; sparse; line: 72
+          10   array.jl; push!; line: 445
+          1    array.jl; push!; line: 446
+          1    array.jl; shift!; line: 521
+           1 array.jl; shift!; line: 519
+            1 task.jl; wait; line: 279
+                            1 ...e/csparse.jl; sparse; line: 74
+          1    base.jl; append_any; line: 139
+           1 base.jl; append_any; line: 139
+                            1 ...e/csparse.jl; sparse; line: 73
+          2    cell.jl; setindex!; line: 32
+           2 cell.jl; setindex!; line: 32
+            1 inference.jl; anonymous; line: 201
+                            1 ...e/csparse.jl; sparse; line: 74
+                            1 ...e/csparse.jl; sparse; line: 74
+          1    dict.jl; ht_keyindex; line: 460
+           1 dict.jl; ht_keyindex; line: 460
+            1 dict.jl; ht_keyindex; line: 441
+                            1 ...e/csparse.jl; sparse; line: 72
+          1    inference.jl; abstract_call; line: 757
+           1 inference.jl; abstract_call; line: 757
+            1 inference.jl; abstract_call; line: 752
+                            1 ...e/csparse.jl; sparse; line: 72
+          1    inference.jl; abstract_call; line: 833
+           1 inference.jl; abstract_call; line: 833
+            1 inference.jl; abstract_call; line: 814
+                            1 ...e/csparse.jl; sparse; line: 76
+                                1 inference.jl; abstract_call; line: 814
+          1    inference.jl; abstract_call_gf; line: 638
+           1 inference.jl; abstract_call_gf; line: 638
+            1 inference.jl; abstract_call_gf; line: 706
+                            1 ...e/csparse.jl; sparse; line: 69
+          1    inference.jl; abstract_call_gf; line: 655
+           1 inference.jl; abstract_call_gf; line: 655
+            1 inference.jl; abstract_call_gf; line: 635
+                            1 ...e/csparse.jl; sparse; line: 76
+          1    inference.jl; abstract_eval; line: 928
+           1 inference.jl; abstract_eval; line: 928
+            1 inference.jl; abstract_eval; line: 931
+                            1 ...e/csparse.jl; sparse; line: 71
+          1    inference.jl; abstract_eval_symbol; line: 1012
+           1 inference.jl; abstract_eval_symbol; line: 1012
+            1 inference.jl; abstract_eval_arg; line: 852
+                            1 ...e/csparse.jl; sparse; line: 73
+          1    inference.jl; abstract_eval_symbol; line: 1014
+           1 inference.jl; abstract_eval_symbol; line: 1014
+            1 inference.jl; abstract_eval_symbol; line: 1012
+                            1 ...e/csparse.jl; sparse; line: 74
+          1    inference.jl; anonymous; line: 216
+           1 inference.jl; anonymous; line: 216
+            1 inference.jl; anonymous; line: 212
+                            1 ...e/csparse.jl; sparse; line: 71
+          1    inference.jl; anonymous; line: 277
+           1 inference.jl; anonymous; line: 277
+            1 inference.jl; anonymous; line: 277
+                            1 ...e/csparse.jl; sparse; line: 74
+          1    inference.jl; anonymous; line: 357
+           1 inference.jl; anonymous; line: 357
+            1 inference.jl; anonymous; line: 321
+                            1 ...e/csparse.jl; sparse; line: 69
+          1    inference.jl; anonymous; line: 592
+           1 inference.jl; anonymous; line: 592
+            1 reflection.jl; _methods; line: 86
+                            1 ...e/csparse.jl; sparse; line: 76
+          1    inference.jl; anonymous; line: 2538
+           1 inference.jl; anonymous; line: 2538
+            1 inference.jl; anonymous; line: 2538
+                            1 ...e/csparse.jl; sparse; line: 73
+          1    inference.jl; eval_annotate; line: 1586
+           1 inference.jl; eval_annotate; line: 1586
+            1 inference.jl; eval_annotate; line: 1582
+                            1 ...e/csparse.jl; sparse; line: 72
+          1    inference.jl; find_sa_vars; line: 2572
+           1 inference.jl; find_sa_vars; line: 2572
+                            1 ...e/csparse.jl; sparse; line: 73
+          2    inference.jl; inlineable; line: 2035
+           2 inference.jl; inlineable; line: 2035
+            2 inference.jl; inlineable; line: 2033
+                            1 ...e/csparse.jl; sparse; line: 71
+                            1 ...e/csparse.jl; sparse; line: 72
+          1    inference.jl; inlineable; line: 2153
+           1 inference.jl; inlineable; line: 2153
+            1 inference.jl; inlineable; line: 2151
+                            1 ...e/csparse.jl; sparse; line: 76
+                                1 inference.jl; inlineable; line: 2151
+                                    1 int.jl; +; line: 33
+          1    inference.jl; inlineable; line: 2173
+           1 inference.jl; inlineable; line: 2173
+            1 inference.jl; inlineable; line: 2197
+                            1 ...e/csparse.jl; sparse; line: 73
+          1    inference.jl; inlining_pass; line: 2429
+           1 inference.jl; inlining_pass; line: 2429
+            1 inference.jl; inlining_pass; line: 2418
+                            1 ...e/csparse.jl; sparse; line: 72
+          1    inference.jl; is_known_call; line: 2514
+           1 inference.jl; is_known_call; line: 2514
+            1 inference.jl; is_known_call; line: 2515
+                            1 ...e/csparse.jl; sparse; line: 69
+          1    inference.jl; typeinf; line: 1226
+           1 inference.jl; typeinf; line: 1214
+            1 inference.jl; typeinf; line: 1395
+                            1 ...e/csparse.jl; sparse; line: 73
+          1    inference.jl; typeinf_ext; line: 1185
+           1 inference.jl; typeinf_ext; line: 1185
+            1 array.jl; reinterpret; line: 81
+                            1 ...e/csparse.jl; sparse; line: 69
+          1    inference.jl; unique_names; line: 2490
+           1 inference.jl; unique_names; line: 2490
+            1 expr.jl; copy; line: 30
+                            1 ...e/csparse.jl; sparse; line: 73
+          1    multi.jl; call_on_owner; line: 743
+           1 multi.jl; call_on_owner; line: 743
+            1 operators.jl; isequal; line: 9
+                            1 ...e/csparse.jl; sparse; line: 69
+          1    path.jl; joinpath; line: 58
+           1 path.jl; joinpath; line: 58
+            1 path.jl; joinpath; line: 61
+                            1 ...e/csparse.jl; sparse; line: 73
+          1    path.jl; joinpath; line: 61
+           1 path.jl; joinpath; line: 61
+            1 path.jl; joinpath; line: 61
+                            1 ...e/csparse.jl; sparse; line: 69
+          1    pcre.jl; exec; line: 128
+           1 pcre.jl; exec; line: 128
+            1 pcre.jl; exec; line: 126
+                            1 ...e/csparse.jl; sparse; line: 71
+                                1 pcre.jl; exec; line: 126
+                                     1 array.jl; setindex!; line: 298
+          1    printf.jl; _printf; line: 762
+           1 printf.jl; _printf; line: 762
+            1 printf.jl; _printf; line: 760
+                            1 ...e/csparse.jl; sparse; line: 73
+          1    range.jl; StepRange; line: 35
+           1 range.jl; StepRange; line: 49
+            1 range.jl; StepRange; line: 42
+                            1 ...e/csparse.jl; sparse; line: 74
+          1    show.jl; show_unquoted; line: 456
+           1 show.jl; show_unquoted; line: 456
+            1 show.jl; show_unquoted; line: 456
+                            1 ...e/csparse.jl; sparse; line: 69
+          1    string.jl; _split; line: 1285
+           1 string.jl; _split; line: 1285
+            1 string.jl; _split; line: 1278
+                            1 ...e/csparse.jl; sparse; line: 71
+          1    string.jl; escape_nul; line: 841
+           1 string.jl; escape_nul; line: 841
+                            1 ...e/csparse.jl; sparse; line: 72
+          1    string.jl; isequal; line: 521
+           1 string.jl; isequal; line: 521
+            1 string.jl; isequal; line: 521
+                            1 ...e/csparse.jl; sparse; line: 71
+          1    string.jl; lpad; line: 1239
+           1 string.jl; lpad; line: 1239
+            1 printf.jl; special_handler; line: 135
+                            1 ...e/csparse.jl; sparse; line: 76
+          1    string.jl; parseint_nocheck; line: 1496
+           1 string.jl; parseint_nocheck; line: 1496
+            1 util.jl; warn; line: 196
+                            1 ...e/csparse.jl; sparse; line: 73
+          1    string.jl; print; line: 623
+           1 string.jl; print; line: 623
+            1 string.jl; print; line: 623
+                            1 ...e/csparse.jl; sparse; line: 71
+          1    string.jl; print_to_string; line: 21
+           1 string.jl; print_to_string; line: 21
+            1 stream.jl; init_stdio; line: 241
+                            1 ...e/csparse.jl; sparse; line: 74
+           1    array.jl; getindex; line: 256
+                   1 array.jl; copy!; line: 55
+                               1 array.jl; unsafe_copy!; line: 42
+            4    dict.jl; rehash; line: 382
+            1    dict.jl; rehash; line: 397
+                            1 ...e/csparse.jl; sparse; line: 72
+            1    inference.jl; to_tuple_of_Types; line: 742
+                            1 ...e/csparse.jl; sparse; line: 71
+            1    linalg.jl; __init__; line: 224
+                            1 ...e/csparse.jl; sparse; line: 73
+            1    reduce.jl; in; line: 117
+                            1 ...e/csparse.jl; sparse; line: 72
+            1    string.jl; rstrip; line: 1429
+                            1 ...e/csparse.jl; sparse; line: 71
+              1    sparse/csparse.jl; sparse; line: 71
+              1    sparse/csparse.jl; sparse; line: 72
+              1    sparse/csparse.jl; sparse; line: 76
+                1    sparse/csparse.jl; sparse; line: 71
+                 1    sparse/csparse.jl; sparse; line: 71
+                   1    sparse/csparse.jl; sparse; line: 69
+                   1    sparse/csparse.jl; sparse; line: 71
+                    4    dict.jl; rehash; line: 383
+                     212 ...ext_proc_2.jl; dtm; line: 150
+                                      1   ...oc_2.jl; tokenize; line: 22
+                                     +3 211 ...c_2.jl; tokenize; line: 22
+                                     +5 138 string.jl; bytestring; line: 653
+                                     +7 1   ...c_2.jl; ngramize; line: 116
+                                     +7 109 ...c_2.jl; ngramize; line: 123
+                                     +9 1  utf8.jl; string; line: 134
+                                    +11 1  utf8.jl; string; line: 134
+                                    +11 1  utf8.jl; string; line: 135
+                                    +11 4  utf8.jl; string; line: 138
+                                    +14 1 utf8.jl; string; line: 135
+                                    +17 1 utf8.jl; string; line: 134
+                                     +7 28  ...c_2.jl; ngramize; line: 124
+                                    +11 1  array.jl; push!; line: 447
+                                    +15 24 string.jl; bytestring; line: 653
+                                    +19 22 array.jl; push!; line: 445
+                                    +19 2  array.jl; push!; line: 446
+                                     +8 53 string.jl; bytestring; line: 653
+                                     +9 1  string.jl; nextind; line: 127
+                                    +10 2  string.jl; nextind; line: 129
+                                    +11 1  string.jl; nextind; line: 127
+                                    +15 1 string.jl; nextind; line: 127
+                                    +20 2 string.jl; nextind; line: 127
+                                    +26 1 utf8.jl; endof; line: 36
+                                    +20 1 string.jl; nextind; line: 135
+                                    +22 1 utf8.jl; isvalid; line: 95
+                                    +16 9 utf8.jl; utf8; line: 161
+                     10  ...ext_proc_2.jl; dtm; line: 151
+                     338 ...ext_proc_2.jl; dtm; line: 152
+                      4   array.jl; push!; line: 440
+                        3   array.jl; push!; line: 440
+                          1   array.jl; push!; line: 447
+                             328 array.jl; push!; line: 445
+                                 1   array.jl; push!; line: 440
+                                 299 array.jl; push!; line: 444
+                                    +14 1 io.jl; close; line: 260
+                                 18  array.jl; push!; line: 445
+                                 10  array.jl; push!; line: 446
+                     8   ...ext_proc_2.jl; dtm; line: 153
+                       1 dict.jl; get!; line: 535
+                        2 array.jl; push!; line: 445
+                        2 dict.jl; get!; line: 535
+                         1 dict.jl; get!; line: 535
+                     40  ...ext_proc_2.jl; dtm; line: 154
+                      3  array.jl; push!; line: 440
+                       2  array.jl; push!; line: 440
+                        2  array.jl; push!; line: 440
+                          1  array.jl; push!; line: 447
+                             31 array.jl; push!; line: 445
+                                 1  array.jl; push!; line: 440
+                                 5  array.jl; push!; line: 444
+                                 19 array.jl; push!; line: 445
+                                 6  array.jl; push!; line: 446
+                      3   dict.jl; rehash; line: 387
+                      4   dict.jl; rehash; line: 388
+                      207 dict.jl; rehash; line: 391
+                        1   dict.jl; int64hash; line: 223
+                           202 dict.jl; hashindex; line: 360
+                      5   dict.jl; rehash; line: 392
+                      1   dict.jl; rehash; line: 393
+                      7   dict.jl; rehash; line: 396
+                      4   dict.jl; rehash; line: 397
+                      3   dict.jl; rehash; line: 398
+                         2   ...xt_proc_2.jl; dtm; line: 157
+                               1 reduce.jl; maximum_rgn; line: 396
+                               1 reduce.jl; maximum_rgn; line: 397
+                         1   ...e/csparse.jl; sparse; line: 73
+                          1   ...e/csparse.jl; sparse; line: 72
+                            1   .../csparse.jl; sparse; line: 63
+                            1   .../csparse.jl; sparse; line: 65
+                            1   .../csparse.jl; sparse; line: 66
+                            6   .../csparse.jl; sparse; line: 67
+                            55  .../csparse.jl; sparse; line: 69
+                                     1 int.jl; +; line: 20
+                            53  .../csparse.jl; sparse; line: 71
+                                     1  array.jl; setindex!; line: 298
+                                        1 array.jl; setindex!; line: 298
+                            40  .../csparse.jl; sparse; line: 72
+                            62  .../csparse.jl; sparse; line: 73
+                                        2 array.jl; setindex!; line: 298
+                            36  .../csparse.jl; sparse; line: 74
+                                        1 array.jl; setindex!; line: 298
+                            39  .../csparse.jl; sparse; line: 76
+                            5   .../csparse.jl; sparse; line: 80
+                            4   .../csparse.jl; sparse; line: 81
+                            1   .../csparse.jl; sparse; line: 85
+                              49 ..._proc_2.jl; dtm; line: 157
+                                     +7 1  ...arse.jl; sparse; line: 69
+                                     +7 1  ...arse.jl; sparse; line: 74
+                                    +15 1  ...arse.jl; sparse; line: 69
+                                    +17 1  ...arse.jl; sparse; line: 69
+                                    +21 1  ...arse.jl; sparse; line: 69
+                                    +36 1  ...rse.jl; sparse; line: 101
+                                    +36 1  ...rse.jl; sparse; line: 107
+                                    +36 2  ...rse.jl; sparse; line: 108
+                                    +36 26 ...rse.jl; sparse; line: 109
+                                    +36 14 ...rse.jl; sparse; line: 110
+                              1  ...csparse.jl; sparse; line: 90
+                              8  ...csparse.jl; sparse; line: 95
+                                     53 ...oc_2.jl; dtm; line: 157
+                                    +21 53 ...c_2.jl; ...ature_names; line: 166
+                                    +23 1  dict.jl; ht_keyindex; line: 441
+                                    +37 4  dict.jl; ht_keyindex; line: 441
+                                    +37 1  dict.jl; ht_keyindex; line: 443
+                                    +37 22 dict.jl; ht_keyindex; line: 448
+                                    +37 6  dict.jl; ht_keyindex; line: 451
+                                    +37 1  dict.jl; ht_keyindex; line: 452
+                                    +37 6  dict.jl; ht_keyindex; line: 460
+                                     +5 1 ...arse.jl; sparse; line: 71

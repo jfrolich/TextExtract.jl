@@ -1,0 +1,94 @@
+module Dev
+#Pkg.add("RDatasets")
+#Pkg.add("DataFrames")
+using RDatasets
+using DataFrames
+
+
+iris = dataset("datasets", "iris")
+features = array(iris[:, 1:4])
+labels = iris[:, :Species]
+y = map(x -> x == "setosa" ? 1 : 0, labels)
+
+
+immutable Leaf
+    majority::Integer
+end
+
+immutable Node
+    featid::Integer
+    featval::Float32
+    left::Union(Leaf,Node)
+    right::Union(Leaf,Node)
+end
+
+
+function split(X, y)
+    nf = size(X, 2)
+    N = length(y)
+    max_th = 0.0
+    max_f  = 0
+    max_ig = 0.0
+    for i in 1:nf
+        println(i)
+        th, ig = bestSplit(X[:,i], y)
+        println((th,ig))
+        if ig > max_ig
+            max_th = th
+            max_f  = i
+            max_ig = ig
+        end
+    end
+    max_f, max_th
+end
+
+# Returns threshold of best split of a given variable and IG
+# function _bestSplit()
+function bestSplit(x, y)
+    steps = sort(unique(x))
+    steps = steps[1:(length(steps)-1)]
+    max_step = 0.0
+    max_ig   = 0.0
+    for step = steps
+        ig = informationGain(x,y,step)
+        if ig > max_ig
+            max_ig = ig
+            max_step = step
+        end
+    end
+    (max_step, max_ig)
+end
+
+function probability(y)
+     sum(y.>0)/length(y)
+end
+
+# Returns entropy before - entropy after
+# after splitting at a given threshold
+function informationGain(x,y, threshold)
+    e = entropy(probability(y))
+    prop  = sum(x.>threshold)
+    left = x.>threshold
+    eLeft  = entropy(probability(y[left]))
+    eRight = entropy(probability(y[!left]))
+    e - prop * eLeft + (1-prop) * eRight
+end
+
+
+# Entropy = - p(a)*log(p(a)) - p(b)*log(p(b))
+function entropy(p)
+    if (p == 1 || p == 0)
+        return 0
+    end
+    - p*log(p) - (1-p)*log(1-p)
+end
+
+
+function tree(x,y)
+    if ! (0 < probability(y) < 1)
+        return Leaf(y[1], y)
+    end
+
+end
+# Dev module
+end
